@@ -25,7 +25,7 @@ Use the `extract_video_id` and `fetch_transcript` functions to fetch the transcr
 **Example:**
 
 ```python
-video_url = 'https://www.youtube.com/watch?v=h2FDq3agImI'
+video_url = 'YouTube Link'
 video_id = extract_video_id(video_url)
 transcript = fetch_transcript(video_id)
 final_transcript = print_transcript(transcript)
